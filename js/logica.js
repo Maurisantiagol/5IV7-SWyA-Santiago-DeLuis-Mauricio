@@ -68,10 +68,6 @@ function camposVacios(){
 }
 
 
-function colocar(){
-    var copiado = document.getElementById("res").value;
-    document.getElementById("cadena").value = copiado;
-}
 
 function reiniciar(){
     document.getElementById("cadena").value = "";
